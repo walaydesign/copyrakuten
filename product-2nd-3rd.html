@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <main>
+        <img class="w-100" src="./public/img/ad.png" alt="">
+        <header class="header header-procuct-2nd">
+            <div class="container">
+                <div class="header_top d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-list"></i>
+                        <img class="header_logo ms-3" src="./public/img/logo.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href=""><i class="bi bi-person"></i></a>
+                        <a href="" class="header_cart ms-4">
+                            <i class="bi bi-cart2"></i>
+                            <div class="header_cart_num">1</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="header_search d-flex align-items-center">
+                    <input type="text" placeholder="請輸入關鍵字">
+                    <button><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </header>
+        <nav class="topNav">
+            <div class="topNav_inner d-flex align-items-center">
+                <ul class="d-flex align-items-center">
+                    <li>
+                        <a href="">
+                            <img src="./public/img/delivery-truck.svg" alt="">
+                            <span>299免運</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./public/img/burger.svg" alt="">
+                            <span>美食</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./public/img/medicine.svg" alt="">
+                            <span>保健</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./public/img/delivery-truck.svg" alt="">
+                            <span>299免運</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./public/img/burger.svg" alt="">
+                            <span>美食</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./public/img/medicine.svg" alt="">
+                            <span>保健</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="topNav_text">樂天市場線上購物-日本樂天第一大網購平台</div>
+                <div class="topNav_arrow"><i class="bi bi-chevron-down"></i></div>
+                <div class="topNav_menu">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="">
+                                <img src="./public/img/delivery-truck.svg" alt="">
+                                <span>299免運</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="">
+                                <img src="./public/img/burger.svg" alt="">
+                                <span>美食</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="">
+                                <img src="./public/img/medicine.svg" alt="">
+                                <span>保健</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="">
+                                <img src="./public/img/delivery-truck.svg" alt="">
+                                <span>299免運</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="">
+                                <img src="./public/img/burger.svg" alt="">
+                                <span>美食</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="">
+                                <img src="./public/img/medicine.svg" alt="">
+                                <span>保健</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="breadcrumb m-0">
+            <div class="container">
+                <ul class="d-flex flex-wrap">
+                    <li><a href="">樂天首頁</a></li>
+                    <li><i class="bi bi-chevron-right"></i></li>
+                    <li><a href="" class="active">流行女裝</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="product-2nd_title">
+            流行女裝的搜尋結果
+        </h2>
+
+        <div class="bg-white d-flex product-2nd_show">
+            <div class="product-2nd_arrange">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="product-2nd_arrange_item active">
+                            <span>綜合排名</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-2nd_arrange_item">
+                            <span>價格</span>
+                            <i class="bi bi-arrow-down-up"></i>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-2nd_arrange_item">
+                            <span>評分高</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-2nd_filter d-flex align-items-center justify-content-end">
+                <i class="bi bi-funnel color-primary"></i>
+                <i class="bi bi-border-all"></i>
+            </div>
+        </div>
+
+        <ul class="product-2nd_discount py-2 container">
+            <li class="highlight">618年中暖身慶</li>
+            <li>299免運</li>
+            <li>499免運</li>
+            <li>899低溫宅配免運</li>
+        </ul>       
+        
+        <div class="product-2nd_class py-3">
+            <div class="container">
+                <div class="swiper-container product-2nd_class_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="" class="product-2nd_class_item">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001522/197097/501899/20f7097401cb3a78e87d8ae6ec50e7754d552ec2.jpg" alt="">
+                                </div>
+                                <p>女裝上衣</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-2nd_class_item">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001522/197097/501899/20f7097401cb3a78e87d8ae6ec50e7754d552ec2.jpg" alt="">
+                                </div>
+                                <p>女裝上衣</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-2nd_class_item">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001522/197097/501899/20f7097401cb3a78e87d8ae6ec50e7754d552ec2.jpg" alt="">
+                                </div>
+                                <p>女裝上衣</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-2nd_class_item">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001522/197097/501899/20f7097401cb3a78e87d8ae6ec50e7754d552ec2.jpg" alt="">
+                                </div>
+                                <p>女裝上衣</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-2nd_class_item">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001522/197097/501899/20f7097401cb3a78e87d8ae6ec50e7754d552ec2.jpg" alt="">
+                                </div>
+                                <p>女裝上衣</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-2nd_class_item">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001522/197097/501899/20f7097401cb3a78e87d8ae6ec50e7754d552ec2.jpg" alt="">
+                                </div>
+                                <p>女裝上衣</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-2nd_class_item">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001522/197097/501899/20f7097401cb3a78e87d8ae6ec50e7754d552ec2.jpg" alt="">
+                                </div>
+                                <p>女裝上衣</p>
+                            </a>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="product-2nd_list py-3">
+            <div class="container">
+                <a href="" class="product-2nd_list_item">
+                    <div class="product-2nd_list_pic">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/10d/343/21b6/adf1/103a/24b1/83e5/1193efa7640242ac110002.jpg?_ex=200x200" alt="">
+                        </div>
+                    </div>
+                    <div class="product-2nd_list_text">
+                        <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                        <p class="product-2nd_price">$<span class="big">990</span></p>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                            <span class="product-2nd_reward">1%</span>
+                            <span class="product-2nd_point">(賺9點)</span>
+                        </div>
+                        <div class="recommend_swiper_evaluate d-flex align-items-end">
+                            <div class="recommend_swiper_evaluate_star d-flex align-items-center">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <span class="color-gray">(1167)</span>
+                        </div>
+                        <div class="product-2nd_tag">滿1000免運</div>
+                        <div class="d-flex align-items-center product-2nd_shop">
+                            <i class="bi bi-shop"></i>
+                            <span>a la sha</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="product-2nd_list_item">
+                    <div class="product-2nd_list_pic">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/10d/343/21b6/adf1/103a/24b1/83e5/1193efa7640242ac110002.jpg?_ex=200x200" alt="">
+                        </div>
+                    </div>
+                    <div class="product-2nd_list_text">
+                        <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                        <p class="product-2nd_price">$<span class="big">990</span></p>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                            <span class="product-2nd_reward">1%</span>
+                            <span class="product-2nd_point">(賺9點)</span>
+                        </div>
+                        <div class="recommend_swiper_evaluate d-flex align-items-end">
+                            <div class="recommend_swiper_evaluate_star d-flex align-items-center">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <span class="color-gray">(1167)</span>
+                        </div>
+                        <div class="product-2nd_tag">滿1000免運</div>
+                        <div class="d-flex align-items-center product-2nd_shop">
+                            <i class="bi bi-shop"></i>
+                            <span>a la sha</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="product-2nd_list_item">
+                    <div class="product-2nd_list_pic">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/10d/343/21b6/adf1/103a/24b1/83e5/1193efa7640242ac110002.jpg?_ex=200x200" alt="">
+                        </div>
+                    </div>
+                    <div class="product-2nd_list_text">
+                        <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                        <p class="product-2nd_price">$<span class="big">990</span></p>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                            <span class="product-2nd_reward">1%</span>
+                            <span class="product-2nd_point">(賺9點)</span>
+                        </div>
+                        <div class="recommend_swiper_evaluate d-flex align-items-end">
+                            <div class="recommend_swiper_evaluate_star d-flex align-items-center">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <span class="color-gray">(1167)</span>
+                        </div>
+                        <div class="product-2nd_tag">滿1000免運</div>
+                        <div class="d-flex align-items-center product-2nd_shop">
+                            <i class="bi bi-shop"></i>
+                            <span>a la sha</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="product-2nd_list_item">
+                    <div class="product-2nd_list_pic">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/10d/343/21b6/adf1/103a/24b1/83e5/1193efa7640242ac110002.jpg?_ex=200x200" alt="">
+                        </div>
+                    </div>
+                    <div class="product-2nd_list_text">
+                        <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                        <p class="product-2nd_price">$<span class="big">990</span></p>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                            <span class="product-2nd_reward">1%</span>
+                            <span class="product-2nd_point">(賺9點)</span>
+                        </div>
+                        <div class="recommend_swiper_evaluate d-flex align-items-end">
+                            <div class="recommend_swiper_evaluate_star d-flex align-items-center">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <span class="color-gray">(1167)</span>
+                        </div>
+                        <div class="product-2nd_tag">滿1000免運</div>
+                        <div class="d-flex align-items-center product-2nd_shop">
+                            <i class="bi bi-shop"></i>
+                            <span>a la sha</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="product-2nd_list_item">
+                    <div class="product-2nd_list_pic">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/10d/343/21b6/adf1/103a/24b1/83e5/1193efa7640242ac110002.jpg?_ex=200x200" alt="">
+                        </div>
+                    </div>
+                    <div class="product-2nd_list_text">
+                        <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                        <p class="product-2nd_price">$<span class="big">990</span></p>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                            <span class="product-2nd_reward">1%</span>
+                            <span class="product-2nd_point">(賺9點)</span>
+                        </div>
+                        <div class="recommend_swiper_evaluate d-flex align-items-end">
+                            <div class="recommend_swiper_evaluate_star d-flex align-items-center">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <span class="color-gray">(1167)</span>
+                        </div>
+                        <div class="product-2nd_tag">滿1000免運</div>
+                        <div class="d-flex align-items-center product-2nd_shop">
+                            <i class="bi bi-shop"></i>
+                            <span>a la sha</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="pagination">
+                <a href="" class="active">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <span>...</span>
+                <a href="">10</a>
+                <a href="">
+                    <i class="bi bi-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="product-2nd_rank py-3">
+            <div class="container mb-3 d-flex align-items-center justify-content-between">
+                <div>
+                    <h3>流行女裝排行榜</h3>
+                    <p>排名期間：2024/6/5 - 2024/6/11</p>
+                </div>
+                <a href="" class="d-flex align-items-center product-2nd_rank_more">
+                    <span>查看更多</span>
+                    <i class="bi bi-chevron-right"></i>
+                </a>
+            </div>
+            <div class="container">
+                <div class="swiper-container product-2nd_rank_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="product-2nd_rank py-3">
+            <div class="container">
+                <h3 class="mb-3">您可能也會喜歡</h3>
+                <div class="swiper-container product-2nd_like_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="product-commonItem">
+                                <div class="product-pic">
+                                    <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                                </div>
+                                <div class="product-commonItem_text">
+                                    <p class="product-commonItem_num">1</p>
+                                    <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                                    <p class="product-2nd_price">$<span class="big">990</span></p>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                        <span class="product-2nd_reward">1%</span>
+                                        <span class="product-2nd_point">(賺9點)</span>
+                                    </div>
+                                    <div class="product-2nd_tag mb-4">滿1000免運</div>
+                                    <div class="d-flex align-items-center product-2nd_shop">
+                                        <i class="bi bi-shop"></i>
+                                        <span>a la sha</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-3">
+            <div class="product-2nd_intro">
+                <h3>流行女裝</h3>
+                <p>
+                    熱我發試沒面：道直加電近發溫底排金去遊東與注前戰，學年己此可歌跟面。作太回葉開斯、教水時考器先留輕你黃；華請卻電媽、較然前了自人送力滿已，交應運北活的天……然量室，候著權家個麼們身然標好人今的座夜是會老工。化回會是曾流的子希社比同清下，父足家假電你士面始了水生非建多不提作另關精！
+                </p>
+            </div>
+        </div>
+
+        <div class="product-2nd_link">
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="product-2nd_pay py-3">
+            <div class="container">
+                <div class="product-2nd_pay_item">
+                    <p>多元付款</p>
+                    <div class="d-flex ps-3">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                    </div>
+                </div>
+                <div class="product-2nd_pay_item">
+                    <p>便利配送</p>
+                    <div class="d-flex ps-3">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                    </div>
+                </div>
+                <div class="product-2nd_pay_item">
+                    <p>資訊安全</p>
+                    <div class="d-flex ps-3">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-2nd_search">
+            <div class="row">
+                <div class="col-4">
+                    <a href="" class="active">綜合搜尋</a>
+                </div>
+                <div class="col-4">
+                    <a href="">樂天市場</a>
+                </div>
+                <div class="col-4">
+                    <a href="">Rebate</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <footer class="footer product-2nd_footer">
+            <div class="container">
+                <div class="footer_country">
+                    <h3>國家/地區</h3>
+                    <ul>
+                        <li><a href="">法國</a></li>
+                        <li><a href="">德國</a></li>
+                        <li><a href="">日本</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">美國</a></li>
+                        <li><a href="">服務一覽</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <ul class="py-3">
+                    <li><a href="">更多樂天服務+</a></li>
+                    <li><a href="">關於樂天</a></li>
+                    <li><a href="">台灣樂天集團</a></li>
+                </ul>
+            </div>
+            <p class="footer_slogan">Shopping is Entertainment!</p>
+            <div class="footer_btn d-flex align-items-center justify-content-center">
+                <a href="">
+                    <i class="bi bi-journal-bookmark"></i>
+                    <span>購物指南</span>
+                </a>
+                <a href="">
+                    <i class="bi bi-question-circle"></i>
+                    <span>常見問題</span>
+                </a>
+                <a href="">
+                    <i class="bi bi-laptop"></i>
+                    <span>PC版</span>
+                </a>
+            </div>
+            <p class="footer_copyright">Rakuten Group, Inc.</p>
+        </footer>
+    
+    </main>
+
+    
+    
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+    <script>
+        var swiperClass = new Swiper(".product-2nd_class_swiper", {
+            slidesPerView: 4.5,
+            slidesPerGroup: 4,
+            spaceBetween: 10,
+        })
+
+        var swiperRank = new Swiper(".product-2nd_rank_swiper", {
+            slidesPerView: 2.8,
+            slidesPerGroup: 2,
+            spaceBetween: 10,
+        })
+
+        var swiperLike = new Swiper(".product-2nd_like_swiper", {
+            slidesPerView: 2.8,
+            slidesPerGroup: 2,
+            spaceBetween: 10,
+        })
+    </script>
+
+
+</body>
+</html>

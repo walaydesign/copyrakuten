@@ -143,7 +143,7 @@
         <div class="coupon">
             <div class="container">
                 <a href="" class="d-flex align-items-center">
-                    <div class="coupon_text d-flex align-items-center">
+                    <div class="coupon_text p-0 d-flex align-items-center">
                         <i class="bi bi-ticket coupon_icon"></i>
                         <span>領取會員神券</span>
                     </div>
@@ -218,12 +218,116 @@
                     </div>
                     <span>排行榜</span>
                 </a>
-                <a href="" class="icon-link_item">
+                <a class="icon-link_item more-topic-btn">
                     <div class="icon-link_pic yellow">
                         <i class="bi bi-cake"></i>
                     </div>
                     <span>更多</span>
                 </a>
+            </div>
+        </div>
+
+        <div class="more-topic">
+            <div class="more-topic_head d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <i class="more-topic_icon bi bi-list"></i>
+                    <h4>更多主題</h4>
+                </div>
+                <div class="more-topic_close">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+            </div>
+            <div class="d-flex">
+                <ul class="more-topic_tab nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="event-tab" data-bs-toggle="tab" data-bs-target="#event-tab-pane" type="button" role="tab" aria-controls="event-tab-pane" aria-selected="true">優惠活動</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="topic-tab" data-bs-toggle="tab" data-bs-target="#topic-tab-pane" type="button" role="tab" aria-controls="topic-tab-pane" aria-selected="false">主題館</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="rank-tab" data-bs-toggle="tab" data-bs-target="#rank-tab-pane" type="button" role="tab" aria-controls="rank-tab-pane" aria-selected="false">排行榜</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="japanShopping" data-bs-toggle="tab" data-bs-target="#japanShopping-pane" type="button" role="tab" aria-controls="japanShopping-pane" aria-selected="false">日本購物</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="brand-tab" data-bs-toggle="tab" data-bs-target="#brand-tab-pane" type="button" role="tab" aria-controls="brand-tab-pane" aria-selected="false">品牌館</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="book-tab" data-bs-toggle="tab" data-bs-target="#book-tab-pane" type="button" role="tab" aria-controls="book-tab-pane" aria-selected="false">書城</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="point-tab" data-bs-toggle="tab" data-bs-target="#point-tab-pane" type="button" role="tab" aria-controls="point-tab-pane" aria-selected="false">樂天點數</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="magazine-tab" data-bs-toggle="tab" data-bs-target="#magazine-tab-pane" type="button" role="tab" aria-controls="magazine-tab-pane" aria-selected="false">樂天誌</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="panda-tab" data-bs-toggle="tab" data-bs-target="#panda-tab-pane" type="button" role="tab" aria-controls="panda-tab-pane" aria-selected="false">樂天胖達</button>
+                    </li>
+                </ul>
+                <div class="more-topic_tabContent tab-content" id="myTabContent">
+                    <div class="tab-pane fade" id="event-tab-pane" role="tabpanel" aria-labelledby="event-tab" tabindex="0">
+                        ...
+                    </div>
+                    <div class="tab-pane fade show active" id="topic-tab-pane" role="tabpanel" aria-labelledby="topic-tab" tabindex="0">
+                        <h5>主題館分類</h5>
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="" class="more-topic_item">
+                                    <img src="./public/img/medicine.svg" alt="">
+                                    <span>499免運</span>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="more-topic_item">
+                                    <img src="./public/img/burger.svg" alt="">
+                                    <span>美食蛋糕</span>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="more-topic_item">
+                                    <img src="./public/img/delivery-truck.svg" alt="">
+                                    <span>養生保健</span>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="more-topic_item">
+                                    <img src="./public/img/mountain.svg" alt="">
+                                    <span>民生用品</span>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="more-topic_item">
+                                    <img src="./public/img/burger.svg" alt="">
+                                    <span>居家生活</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="rank-tab-pane" role="tabpanel" aria-labelledby="rank-tab" tabindex="0">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="japanShopping-pane" role="tabpanel" aria-labelledby="japanShopping" tabindex="0">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="brand-tab-pane" role="tabpanel" aria-labelledby="brand-tab" tabindex="0">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="book-tab-pane" role="tabpanel" aria-labelledby="book-tab" tabindex="0">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="point-tab-pane" role="tabpanel" aria-labelledby="point-tab" tabindex="0">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="magazine-tab-pane" role="tabpanel" aria-labelledby="magazine-tab" tabindex="0">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="panda-tab-pane" role="tabpanel" aria-labelledby="panda-tab" tabindex="0">
+                        ...
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -2796,6 +2900,13 @@
                 el: ".swiper-pagination",
                 clickable: true,
             },
+        })
+
+        $(".more-topic-btn").click(function() {
+            $(".more-topic").addClass("active");
+        })
+        $(".more-topic_close").click(function() {
+            $(".more-topic").remClass("active");
         })
 
         

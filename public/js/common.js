@@ -15,3 +15,8 @@ $(".fix-ad_close").click(function(){
 $(".popup_close").click(function(){
     $(this).parents(".popup").hide();
 })
+
+$(".product-2nd_link_head").click(function(){
+    $(this).parents(".product-2nd_link_item").find("ul").slideToggle(300);
+    $(this).toggleClass("active");
+})

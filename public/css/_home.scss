@@ -123,17 +123,6 @@
     }
 }
 
-.gift {
-    background-color: #fff;
-    &_item {
-        display: block;
-        margin-bottom: 15px;
-        >img {
-            width: 100%;
-        }
-    }
-}
-
 .shopping-topic {
     padding-top: 20px;
     .row {
@@ -853,51 +842,16 @@
     }
 }
 
-.cheat {
-    &_inner {
-        border-radius: 12px;
-        background-color: #fff;
-            padding: 15px;
-            border-radius: 12px;
-            border: 1px solid #CCCCCC;
-        &_content {
-            margin-bottom: 20px;
-        } 
-    }
-    &_title {
-        display: flex;
-        align-items: center;
-        margin-bottom: 5px;
-        i {
-            font-size: 16px;
-            margin-right: 5px;
-            color: $primary;
-        }
-        h3 {
-            font-size: 16px;
-            color: $primary;
-            font-weight: 700;
-            margin: 0;
-        }
-    }
-    &_inner {
-        p {
-            font-size: 14px;
-            padding-left: 22px;
-            margin: 0;
-        }
-        
-    }
-}
-
 .popup {
     width: 100%;
+    max-width: 450px;
     height: 100%;
     position: fixed;
     // position: relative;
     z-index: 8;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     &_bg {
         width: 100%;
         height: 100%;

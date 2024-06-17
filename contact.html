@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <main>
+        <img class="w-100" src="./public/img/ad.png" alt="">
+
+        <header class="header">
+            <div class="container">
+                <div class="header_top d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-list header_menu"></i>
+                        <img class="header_logo ms-3" src="./public/img/logo.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href=""><i class="bi bi-person"></i></a>
+                        <a href="./cart.html" class="header_cart ms-4">
+                            <i class="bi bi-cart2"></i>
+                            <div class="header_cart_num">1</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="header_search d-flex align-items-center">
+                    <input type="text" placeholder="請輸入關鍵字">
+                    <button><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu">
+            <div class="menu_head">
+                <p>在台灣樂天市場</p>
+                <i class="bi bi-x-lg menu_close"></i>
+            </div>
+            <nav class="menu_nav">
+                <ul>
+                    <li>
+                        <a class="menu_nav_item">
+                            <span>家具、寢具與衛浴</span>
+                            <i class="bi bi-chevron-right"></i>
+                        </a>
+                        <nav class="menu_nav_child">
+                            <div class="d-flex align-items-center menu_nav_child_back">
+                                <i class="bi bi-chevron-left"></i>
+                                <span>返回</span>
+                            </div>
+                            <div class="p-3 border-bottom border-e6">
+                                <h2 class="font-18 fw-bold m-0">家具、寢具與衛浴</h2>
+                            </div>
+                            <div class="px-3 py-2_5 border-bottom border-e6">
+                                <span class="font-14 color-primary">查看全部：家具、寢具與衛浴</span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a class="menu_nav_item">
+                                        <span>臥室寢具</span>
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                    <nav class="menu_nav_child">
+                                        <div class="d-flex align-items-center menu_nav_child_back">
+                                            <i class="bi bi-chevron-left"></i>
+                                            <span>返回</span>
+                                        </div>
+                                        <div class="p-3 border-bottom border-e6">
+                                            <h2 class="font-18 fw-bold m-0">臥室寢具</h2>
+                                        </div>
+                                        <div class="px-3 py-2_5 border-bottom border-e6">
+                                            <span class="font-14 color-primary">查看全部：臥室寢具</span>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <a class="menu_nav_item">
+                                                    <span>成套床包組</span>
+                                                    <i class="bi bi-chevron-right"></i>
+                                                </a>
+                                                <nav class="menu_nav_child">
+                                                    <div class="d-flex align-items-center menu_nav_child_back">
+                                                        <i class="bi bi-chevron-left"></i>
+                                                        <span>返回</span>
+                                                    </div>
+                                                    <div class="p-3 border-bottom border-e6">
+                                                        <h2 class="font-18 fw-bold m-0">成套床包組</h2>
+                                                    </div>
+                                                    <div class="px-3 py-2_5 border-bottom border-e6">
+                                                        <span class="font-14 color-primary">查看全部：成套床包組</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <a class="menu_nav_item">
+                                                                <span>單人床包</span>
+                                                                <i class="bi bi-chevron-right"></i>
+                                                            </a>
+                                                            <nav class="menu_nav_child">
+                                                                <div class="d-flex align-items-center menu_nav_child_back">
+                                                                    <i class="bi bi-chevron-left"></i>
+                                                                    <span>返回</span>
+                                                                </div>
+                                                                <div class="p-3 border-bottom border-e6">
+                                                                    <h2 class="font-18 fw-bold m-0">單人床包</h2>
+                                                                </div>
+                                                                <div class="px-3 py-2_5 border-bottom border-e6">
+                                                                    <span class="font-14 color-primary">查看全部：單人床包</span>
+                                                                </div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>兩件式床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>三件式床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>其他單人床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </nav>
+                                                        </li>
+                                                        <li>
+                                                            <a class="menu_nav_item">
+                                                                <span>單人加大床包</span>
+                                                                <i class="bi bi-chevron-right"></i>
+                                                            </a>
+                                                            <nav class="menu_nav_child">
+                                                                <div class="d-flex align-items-center menu_nav_child_back">
+                                                                    <i class="bi bi-chevron-left"></i>
+                                                                    <span>返回</span>
+                                                                </div>
+                                                                <div class="p-3 border-bottom border-e6">
+                                                                    <h2 class="font-18 fw-bold m-0">單人加大床包</h2>
+                                                                </div>
+                                                                <div class="px-3 py-2_5 border-bottom border-e6">
+                                                                    <span class="font-14 color-primary">查看全部：單人加大床包</span>
+                                                                </div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>兩件式床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>三件式床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>其他單人床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </nav>
+                                                        </li>
+                                                        <li>
+                                                            <a class="menu_nav_item">
+                                                                <span>雙人床包</span>
+                                                                <i class="bi bi-chevron-right"></i>
+                                                            </a>
+                                                            <nav class="menu_nav_child">
+                                                                <div class="d-flex align-items-center menu_nav_child_back">
+                                                                    <i class="bi bi-chevron-left"></i>
+                                                                    <span>返回</span>
+                                                                </div>
+                                                                <div class="p-3 border-bottom border-e6">
+                                                                    <h2 class="font-18 fw-bold m-0">雙人床包</h2>
+                                                                </div>
+                                                                <div class="px-3 py-2_5 border-bottom border-e6">
+                                                                    <span class="font-14 color-primary">查看全部：雙人床包</span>
+                                                                </div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>三件式床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>四件式床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>其他雙人床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </nav>
+                                                        </li>
+                                                        <li>
+                                                            <a class="menu_nav_item">
+                                                                <span>雙人加大床包</span>
+                                                                <i class="bi bi-chevron-right"></i>
+                                                            </a>
+                                                            <nav class="menu_nav_child">
+                                                                <div class="d-flex align-items-center menu_nav_child_back">
+                                                                    <i class="bi bi-chevron-left"></i>
+                                                                    <span>返回</span>
+                                                                </div>
+                                                                <div class="p-3 border-bottom border-e6">
+                                                                    <h2 class="font-18 fw-bold m-0">雙人加大床包</h2>
+                                                                </div>
+                                                                <div class="px-3 py-2_5 border-bottom border-e6">
+                                                                    <span class="font-14 color-primary">查看全部：雙人加大床包</span>
+                                                                </div>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>三件式床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>四件式床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="" class="menu_nav_item">
+                                                                            <span>其他雙人床包組</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </nav>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </li>
+                                <li>
+                                    <a class="menu_nav_item">
+                                        <span>家具</span>
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu_nav_item">
+                                        <span>衛浴設備/浴室用品</span>
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu_nav_item">
+                                        <span>家飾</span>
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu_nav_item">
+                                        <span>居家安全</span>
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="menu_nav_item">
+                                        <span>燈具</span>
+                                        <i class="bi bi-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="topNav">
+            <div class="topNav_inner d-flex align-items-center">
+                <ul class="d-flex align-items-center">
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/delivery-truck.svg" alt="">
+                            <span>299免運</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/burger.svg" alt="">
+                            <span>美食</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/medicine.svg" alt="">
+                            <span>保健</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/delivery-truck.svg" alt="">
+                            <span>299免運</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/burger.svg" alt="">
+                            <span>美食</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/medicine.svg" alt="">
+                            <span>保健</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="topNav_text">樂天市場線上購物-日本樂天第一大網購平台</div>
+                <div class="topNav_arrow"><i class="bi bi-chevron-down"></i></div>
+                <div class="topNav_menu">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/delivery-truck.svg" alt="">
+                                <span>299免運</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/burger.svg" alt="">
+                                <span>美食</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/medicine.svg" alt="">
+                                <span>保健</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/delivery-truck.svg" alt="">
+                                <span>299免運</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/burger.svg" alt="">
+                                <span>美食</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/medicine.svg" alt="">
+                                <span>保健</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="breadcrumb m-0 bg-transparent">
+            <div class="container">
+                <ul class="d-flex flex-wrap">
+                    <li><a href="./index.html">樂天首頁</a></li>
+                    <li><i class="bi bi-chevron-right"></i></li>
+                    <li><a href="./shop.html">a la sha</a></li>
+                    <li><i class="bi bi-chevron-right"></i></li>
+                    <li><a class="active">聯絡店家</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="p-3">
+            <h1 class="font-20 m-0 fw-bold">聯絡店家-a la sha</h1>
+        </div>
+
+        <div class="px-3">
+            <div class="shop-contact_item">
+                <h2 class="font-18 mb-3 fw-bold">店家資訊</h2>
+                <div class="mb-2">
+                    <h3 class="font-14 m-0">店家名稱</h3>
+                    <p class="font-14 m-0 color-blue">a la sha</p>
+                </div>
+                <div class="mb-2">
+                    <h3 class="font-14 m-0">店家電話</h3>
+                    <p class="font-14 m-0 color-blue">07-7356789</p>
+                </div>
+                <div class="mb-2">
+                    <h3 class="font-14 m-0">地區</h3>
+                    <p class="font-14 m-0 color-blue">鳳山區</p>
+                </div>
+                <div class="mb-2">
+                    <h3 class="font-14 m-0">店家資訊</h3>
+                    <p class="font-14 m-0 color-blue">a la sha</p>
+                </div>
+            </div>
+            <div class="shop-contact_item">
+                <h2 class="font-18 mb-3 fw-bold">傳送訊息</h2>
+                <div class="shop-contact_download mb-3">
+                    <span>New!即時聊天功能已上線～請及時下載或更新樂天市場APP!</span>
+                    <i class="bi bi-chevron-right"></i>
+                </div>
+                <div class="shop-contact_form">
+                    <div class="mb-3">
+                        <label for="">姓名</label>
+                        <input type="text">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">電子郵件</label>
+                        <input type="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">確認電子郵件</label>
+                        <input type="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">訊息</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button>傳送</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-2nd_link">
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+            <div class="product-2nd_link_item">
+                <div class="container">
+                    <div class="product-2nd_link_head d-flex align-items-center justify-content-between">
+                        <h4>關於我們</h4>
+                        <div class="product-2nd_link_icon">
+                            <i class="bi bi-plus-lg plus"></i>
+                            <i class="bi bi-dash-lg minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="container">
+                    <li><a href="">公司資訊</a></li>
+                    <li><a href="">新聞稿</a></li>
+                    <li><a href="">人才招募</a></li>
+                    <li><a href="">服務供告</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="product-2nd_pay py-3">
+            <div class="container">
+                <div class="product-2nd_pay_item">
+                    <p>多元付款</p>
+                    <div class="d-flex ps-3">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                    </div>
+                </div>
+                <div class="product-2nd_pay_item">
+                    <p>便利配送</p>
+                    <div class="d-flex ps-3">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                    </div>
+                </div>
+                <div class="product-2nd_pay_item">
+                    <p>資訊安全</p>
+                    <div class="d-flex ps-3">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                        <img src="./public/img/MasterCard_Logo.svg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-2nd_search">
+            <div class="row">
+                <div class="col-4">
+                    <a href="" class="active">綜合搜尋</a>
+                </div>
+                <div class="col-4">
+                    <a href="">樂天市場</a>
+                </div>
+                <div class="col-4">
+                    <a href="">Rebate</a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer product-2nd_footer">
+            <div class="container">
+                <div class="footer_country">
+                    <h3>國家/地區</h3>
+                    <ul>
+                        <li><a href="">法國</a></li>
+                        <li><a href="">德國</a></li>
+                        <li><a href="">日本</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">美國</a></li>
+                        <li><a href="">服務一覽</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <ul class="py-3">
+                    <li><a href="">更多樂天服務+</a></li>
+                    <li><a href="">關於樂天</a></li>
+                    <li><a href="">台灣樂天集團</a></li>
+                </ul>
+            </div>
+            <p class="footer_slogan">Shopping is Entertainment!</p>
+            <div class="footer_btn d-flex align-items-center justify-content-center">
+                <a href="">
+                    <i class="bi bi-journal-bookmark"></i>
+                    <span>購物指南</span>
+                </a>
+                <a href="">
+                    <i class="bi bi-question-circle"></i>
+                    <span>常見問題</span>
+                </a>
+                <a href="">
+                    <i class="bi bi-laptop"></i>
+                    <span>PC版</span>
+                </a>
+            </div>
+            <p class="footer_copyright">Rakuten Group, Inc.</p>
+        </footer>
+
+
+
+
+    </main>
+
+    
+    
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+</body>
+</html>

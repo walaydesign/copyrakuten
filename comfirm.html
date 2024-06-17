@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <main>
+        <header class="header-search">
+            <div class="container">
+                <div class="py-2 d-flex align-items-center justify-content-between">
+                    <a href="./index.html" class="header-search_logo"><img src="./public/img/og_logo.png" alt=""></a>
+                    <i class="bi bi-lock font-20 color-99"></i>
+                </div>
+            </div>
+        </header>
+
+        <div class="p-3">
+            <h1 class="font-16 m-0">確認訂單</h1>
+        </div>
+
+        <div class="px-3 confirm">
+            <div class="bg-white rounded border border-e6 mb-3">
+                <div class="px-3 py-2 d-flex align-items-center border-bottom border-e6">
+                    <i class="bi bi-shop color-99 font-20 me-2"></i>
+                    <span class="font-14">a la sha</span>
+                </div>
+                <div class="confirm-product d-flex p-3">
+                    <div class="confirm-product_pic">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="./public/img/product-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="confirm-product_text">
+                        <h2 class="font-14 fw-normal mb-1">a la sha 舒適剪接設計長褲</h2>
+                        <p class="font-14 color-99 mb-1">灰藍S</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <span class="fw-bold">$990</span>
+                            <span>x 1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded border border-e6 mb-3 p-3">
+                <h3 class="font-16 fw-normal mb-2">配送</h3>
+                <div class="d-flex align-items-center justify-content-between p-2 rounded border border-e6 mb-2">
+                    <div class="d-flex align-items-center color-99">
+                        <i class="bi bi-truck font-20 me-2"></i>
+                        <span class="font-14">選擇配送方式</span>
+                    </div>
+                    <i class="bi bi-chevron-right font-18 color-99"></i>
+                </div>
+                <div class="d-flex align-items-center color-brown">
+                    <i class="bi bi-bell font-14 me-1"></i>
+                    <span class="font-12">店家將於訂單成立後另行通知運費金額</span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded border border-e6 mb-3 p-3">
+                <div class="d-flex align-items-center mb-2">
+                    <h3 class="font-16 fw-normal me-2 mb-0">折抵</h3>
+                    <i class="bi bi-info-circle color-99 font-16"></i>
+                </div>
+                <div class="bg-white rounded border border-cc mb-2 p-3">
+                    <div class="confirm_point d-flex align-items-center mb-1">
+                        <input class="confirm_point_checkbox" type="checkbox">
+                        <span class="confirm_point_use">使用樂天點數</span>
+                        <div class="confirm_point_input">
+                            <input type="text" value="0">
+                            <span>點</span>
+                        </div>
+                    </div>
+                    <p class="font-12 color-99 text-end m-0">點數<span class="color-primary mx-1">0</span>點</p>
+                </div>
+                <div class="bg-white rounded border border-cc mb-2 px-3 py-2 d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center color-66">
+                        <i class="bi bi-ticket font-20 me-2"></i>
+                        <span class="font-14">優惠券</span>
+                    </div>
+                    <div class="d-flex align-items-center color-99">
+                        <span class="font-14">輸入優惠代碼</span>
+                        <i class="bi bi-chevron-right font-20 ms-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded border border-e6 mb-3 p-3">
+                <h3 class="font-16 fw-normal mb-2">付款</h3>
+                <div class="d-flex align-items-center justify-content-between p-2 rounded border border-e6 mb-2">
+                    <div class="d-flex align-items-center color-99">
+                        <i class="bi bi-coin font-20 me-2"></i>
+                        <span class="font-14">選擇付款方式</span>
+                    </div>
+                    <i class="bi bi-chevron-right font-18 color-99"></i>
+                </div>
+                <div class="d-flex align-items-center justify-content-between p-2 rounded border border-e6">
+                    <div class="d-flex align-items-center color-33">
+                        <i class="bi bi-ticket-detailed font-20 me-2"></i>
+                        <div>
+                            <span class="font-14 d-block">個人用點子發票</span>
+                            <span class="font-12 d-block">樂天載具</span>
+                        </div>
+                    </div>
+                    <i class="bi bi-chevron-right font-18 color-99"></i>
+                </div>
+            </div>
+
+            <div class="bg-white rounded border border-e6 mb-3">
+                <div class="p-3 d-flex align-items-center border-bottom border-e6">
+                    <h2 class="m-0 font-14 fw-normal">訂購人資訊</h2>
+                </div>
+                <div class="p-3 confirm_form">
+                    <div class="confirm_form_item">
+                        <label for="">姓名</label>
+                        <div class="row">
+                            <div class="col-6"><input type="text" value="王"></div>
+                            <div class="col-6"><input type="text" value="小明"></div>
+                        </div>
+                    </div>
+                    <div class="confirm_form_item">
+                        <label for="">電話</label>
+                        <input type="text" value="0987654321">
+                    </div>
+                    <div class="confirm_form_item">
+                        <label for="">Email</label>
+                        <input type="text" value="coehoif@gmail.com">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded border border-e6 mb-3 p-3">
+                <div class="pb-3 border-bottom border-e6">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <span class="color-33 font-14">小計</span>
+                        <span class="fw-bold font-14">$990</span>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <span class="color-33 font-14">運費</span>
+                        <span class="fw-bold font-14">待選擇</span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between pt-3">
+                    <span class="color-33 font-16 fw-bold">總計</span>
+                    <div class="d-flex flex-column align-items-end">
+                        <span class="font-18 fw-bold">$990</span>
+                        <div class="d-flex align-items-center color-primary font-12">
+                            <i class="bi bi-p-circle-fill me-1"></i>
+                            <span>賺9點</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded border border-e6 mb-3">
+                <div class="p-3 d-flex align-items-center border-bottom border-e6">
+                    <h2 class="m-0 font-14 fw-normal">訂單備註</h2>
+                </div>
+                <div class="p-3 color-66">
+                    <h3 class="mb-4 font-14">a la sha購物須知</h3>
+                    <p class="m-0 font-14">
+                        轉數道面，條高為技到程經西線功中岸媽男人回來水她的把最一會動……時室公重論部，母來步行工城幾格事或中空不市……的省著校……也用士爭文一流總晚家青上線，也臺完連定，女不吃響形景在爭在而臺，而經政著！回兒來回，科大明懷竟舉自來深道：資不地；木沒常民水也都外因來方。們就說們受終陽家果日道味只處看事、給一
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded border border-e6 mb-3 p-3 confirm_subscript">
+                <div class="d-flex align-items-center mb-2">
+                    <input type="checkbox">
+                    <span>訂閱a la sha 電子報</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <input type="checkbox">
+                    <span>訂閱 台灣樂天市場 電子報</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="confirm_bottom border-top border-cc">
+            <div class="bg-white border-bottom border-e6 px-3 py-2 d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center color-66">
+                    <i class="bi bi-ticket font-20 me-2"></i>
+                    <span class="font-14">優惠券</span>
+                </div>
+                <div class="d-flex align-items-center color-99">
+                    <span class="font-14">輸入優惠代碼</span>
+                    <i class="bi bi-chevron-right font-20 ms-2"></i>
+                </div>
+            </div>
+            <div class="bg-white border-bottom border-e6 px-3 py-2 d-flex align-items-center justify-content-end">
+                <div class="d-flex flex-column align-items-end me-3">
+                    <div class="d-flex align-items-center">
+                        <span class="font-12 me-2">結帳金額</span>
+                        <span class="font-22 fw-bold">$990</span>
+                    </div>
+                    <span class="font-12 color-primary">賺 9 點</span>
+                </div>
+                <a href="" class="confirm_bottom_btn">確認結帳</a>
+            </div>
+        </div>
+
+        
+        
+
+
+    </main>
+
+    
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+
+</body>
+</html>

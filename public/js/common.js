@@ -20,3 +20,16 @@ $(".product-2nd_link_head").click(function(){
     $(this).parents(".product-2nd_link_item").find("ul").slideToggle(300);
     $(this).toggleClass("active");
 })
+
+$(".menu_nav_item").click(function() {
+    $(this).parents("li").children(".menu_nav_child").addClass("active");
+})
+$(".menu_nav_child_back").click(function() {
+    $(this).parent(".menu_nav_child").removeClass("active");
+})
+$(".header_menu").click(function() {
+    $(".menu").addClass("active");
+})
+$(".menu_close").click(function() {
+    $(this).parents(".menu").removeClass("active");
+})

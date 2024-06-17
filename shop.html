@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <main>
+        <img class="w-100" src="./public/img/ad.png" alt="">
+
+        <header class="header">
+            <div class="container">
+                <div class="header_top d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-list"></i>
+                        <img class="header_logo ms-3" src="./public/img/logo.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href=""><i class="bi bi-person"></i></a>
+                        <a href="./cart.html" class="header_cart ms-4">
+                            <i class="bi bi-cart2"></i>
+                            <div class="header_cart_num">1</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="header_search d-flex align-items-center">
+                    <input type="text" placeholder="請輸入關鍵字">
+                    <button><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+        </header>
+
+        <nav class="topNav">
+            <div class="topNav_inner d-flex align-items-center">
+                <ul class="d-flex align-items-center">
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/delivery-truck.svg" alt="">
+                            <span>299免運</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/burger.svg" alt="">
+                            <span>美食</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/medicine.svg" alt="">
+                            <span>保健</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/delivery-truck.svg" alt="">
+                            <span>299免運</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/burger.svg" alt="">
+                            <span>美食</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./product-1st.html">
+                            <img src="./public/img/medicine.svg" alt="">
+                            <span>保健</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="topNav_text">樂天市場線上購物-日本樂天第一大網購平台</div>
+                <div class="topNav_arrow"><i class="bi bi-chevron-down"></i></div>
+                <div class="topNav_menu">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/delivery-truck.svg" alt="">
+                                <span>299免運</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/burger.svg" alt="">
+                                <span>美食</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/medicine.svg" alt="">
+                                <span>保健</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/delivery-truck.svg" alt="">
+                                <span>299免運</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/burger.svg" alt="">
+                                <span>美食</span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="./product-1st.html">
+                                <img src="./public/img/medicine.svg" alt="">
+                                <span>保健</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="shop-nav">
+            <ul class="d-flex">
+                <li>
+                    <a class="active">
+                        <i class="bi bi-shop"></i>
+                        <span>店家首頁</span>
+                    </a>
+                </li>
+                <li>
+                    <a data-content="#shop-catagory">
+                        <i class="bi bi-list"></i>
+                        <span>本店類別</span>
+                    </a>
+                </li>
+                <li>
+                    <a data-content="#lottery-game">
+                        <i class="bi bi-gift"></i>
+                        <span>抽獎遊戲</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="bi bi-megaphone"></i>
+                        <span>促銷活動</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="bi bi-envelope"></i>
+                        <span>聯絡店家</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="shop-nav_content" id="shop-catagory">
+            <div class="shop-nav_content_head">
+                <div class="shop-nav_content_head_tab">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="taiwanmarket-tab" data-bs-toggle="pill" data-bs-target="#taiwanmarket" type="button" role="tab" aria-controls="taiwanmarket" aria-selected="true">在台灣樂天市場</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="thisshop-tab" data-bs-toggle="pill" data-bs-target="#thisshop" type="button" role="tab" aria-controls="thisshop" aria-selected="false">在此店家</button>
+                        </li>
+                    </ul>
+                </div>
+                <i class="bi bi-x-lg shop-nav_content_head_close"></i>
+            </div>
+            <div class="shop-nav_tabContent tab-content" id="pills-tabContent">
+                <div class="tab-pane fade" id="taiwanmarket" role="tabpanel" aria-labelledby="taiwanmarket-tab" tabindex="0">
+                    <ul>
+                        <li><a href="">全部商品</a></li>
+                        <li><a href="">%熱銷好評！最後搶機會%</a></li>
+                        <li><a href="">尋寶樂園</a></li>
+                        <li><a href="">新到貨New Arrival</a></li>
+                        <li><a href="">A la sha +a</a></li>
+                        <li><a href="">上衣Tops</a></li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade show active" id="thisshop" role="tabpanel" aria-labelledby="thisshop-tab" tabindex="0">
+                    <ul>
+                        <li><a href="">洋裝Dresses</a></li>
+                        <li><a href="">外套&針織</a></li>
+                        <li><a href="">下著Bottom</a></li>
+                        <li><a href="">裙子Skirts</a></li>
+                        <li><a href="">A la sha +a</a></li>
+                        <li><a href="">褲子Pants</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop-nav_content" id="lottery-game">
+            <div class="shop-nav_content_head">
+                <div class="shop-nav_content_head_tab">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="lottery-tab" data-bs-toggle="pill" data-bs-target="#lottery" type="button" role="tab" aria-controls="lottery" aria-selected="true">抽獎遊戲</button>
+                        </li>
+                    </ul>
+                </div>
+                <i class="bi bi-x-lg shop-nav_content_head_close"></i>
+            </div>
+            <div class="shop-nav_tabContent tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="lottery" role="tabpanel" aria-labelledby="lottery-tab" tabindex="0">
+                    <div class="wait p-3">
+                        <h3>此店家的遊戲正在建置中，敬請期待！</h3>
+                        <img src="./public/img/chinese-food.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="breadcrumb m-0 bg-transparent">
+            <div class="container">
+                <ul class="d-flex flex-wrap">
+                    <li><a href="./index.html">樂天首頁</a></li>
+                    <li><i class="bi bi-chevron-right"></i></li>
+                    <li><a class="active">a la sha</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="px-3 py-2">
+            <div class="d-flex align-items-center">
+                <div class="product-detail_shop_pic">
+                    <img src="https://tshop.r10s.com/612/b56/ab19/da5d/40aa/7b0c/d744/11c2eb82f60242ac110006.jpg?_ex=330x330" alt="">
+                </div>
+                <div>
+                    <h2 class="product-detail_shop_name">a la sha</h2>
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-star-fill font-14 me-1 color-primary"></i>
+                        <i class="bi bi-star-fill font-14 me-1 color-primary"></i>
+                        <i class="bi bi-star-fill font-14 me-1 color-primary"></i>
+                        <i class="bi bi-star-fill font-14 me-1 color-primary"></i>
+                        <i class="bi bi-star font-14 me-1 color-primary"></i>
+                        <span class="bold font-14">4.7</span>
+                        <span class="font-14 color-blue">(6009)</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="px-3 pb-2 d-flex align-items-center justify-content-between">
+            <span class="font-14 color-blue">店家出貨速度：2天</span>
+            <div class="d-flex align-items-center color-99 font-18">
+                <i class="bi bi-info-circle-fill me-3"></i>
+                <i class="bi bi-pen"></i>
+            </div>
+        </div>
+
+        <div class="px-3 pb-2 d-flex align-items-center">
+            <div class="d-flex align-items-center me-3">
+                <i class="bi bi-hand-thumbs-up color-orange font-18 me-1"></i>
+                <span class="color-99 font-12">人氣店家</span>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="bi bi-ticket-perforated color-orange font-18 me-1"></i>
+                <span class="color-99 font-12">電子發票</span>
+            </div>
+        </div>
+
+        <div class="p-3">
+            <img class="w-100 mb-2" src="./public/img/shop-1.png" alt="">
+            <img class="w-100 mb-2" src="./public/img/shop-1.png" alt="">
+            <img class="w-100 mb-2" src="./public/img/shop-1.png" alt="">
+        </div>
+
+        <div class="shop-recommend px-3">
+            <div class="shop-recommend_title">
+                <svg id="fi_6360838" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><g><path d="m202.137 137.732c.252 1.071 1.335 2.153 2.406 2.406l99.827 23.55c1.07.252 1.07.666 0 .918l-99.827 23.545c-1.071.252-2.153 1.335-2.406 2.406l-23.548 99.827c-.252 1.07-.666 1.07-.918 0l-23.543-99.827c-.252-1.071-1.335-2.153-2.406-2.406l-99.831-23.545c-1.071-.252-1.071-.666 0-.918l99.831-23.55c1.071-.252 2.153-1.335 2.406-2.406l23.543-99.824c.252-1.071.666-1.071.918 0z" fill="#fbb523"></path></g><g><path d="m268.6 354.202c.252 1.07 1.335 2.153 2.405 2.405l77.568 18.3c1.07.252 1.07.666 0 .918l-77.568 18.297c-1.07.252-2.153 1.335-2.405 2.405l-18.296 77.565c-.252 1.07-.666 1.07-.918 0l-18.294-77.565c-.252-1.07-1.335-2.153-2.406-2.405l-77.571-18.297c-1.071-.252-1.071-.666 0-.918l77.571-18.3c1.071-.252 2.153-1.335 2.406-2.405l18.294-77.566c.252-1.07.666-1.07.918 0z" fill="#fbb523"></path></g><g><path d="m398.59 216.31c.252 1.071 1.335 2.153 2.405 2.406l59.113 13.946c1.07.252 1.07.666 0 .918l-59.113 13.944c-1.07.252-2.153 1.335-2.405 2.406l-13.945 59.112c-.252 1.07-.666 1.07-.918 0l-13.941-59.112c-.252-1.071-1.335-2.153-2.405-2.406l-59.117-13.944c-1.07-.252-1.07-.666 0-.918l59.117-13.946c1.07-.252 2.153-1.335 2.405-2.406l13.941-59.112c.252-1.071.666-1.071.918 0z" fill="#fbb523"></path></g></g><g opacity=".02"><g><path d="m304.384 163.691c1.07.252 1.07.666 0 .918l-99.827 23.542c-1.071.252-2.153 1.335-2.406 2.406l-23.551 99.827c-.253 1.07-.666 1.07-.918 0l-2.712-11.497c-.252-1.07-.252-2.822 0-3.893l21.021-89.107c.252-1.071 1.335-2.153 2.406-2.406l93.006-21.933c1.07-.252 2.822-.252 3.893 0z"></path></g><g><path d="m348.584 374.91c1.07.253 1.07.666 0 .918l-77.567 18.293c-1.07.252-2.153 1.335-2.405 2.405l-18.302 77.566c-.253 1.07-.667 1.07-.919 0l-2.711-11.477c-.252-1.07-.253-2.822 0-3.893l15.772-66.867c.252-1.07 1.335-2.153 2.405-2.405l70.748-16.682c1.07-.252 2.822-.253 3.893 0z"></path></g><g><path d="m460.114 232.661c1.07.252 1.07.666 0 .918l-59.107 13.942c-1.07.252-2.153 1.335-2.405 2.406l-13.942 59.117c-.252 1.07-.666 1.07-.918 0l-2.712-11.497c-.252-1.07-.252-2.822 0-3.893l11.412-48.387c.252-1.071 1.335-2.153 2.405-2.406l52.297-12.341c1.07-.253 2.822-.253 3.893 0z"></path></g></g></g></svg>
+                <h2>尋寶春夏單品推薦</h2>
+                <svg id="fi_6360838" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><g><path d="m202.137 137.732c.252 1.071 1.335 2.153 2.406 2.406l99.827 23.55c1.07.252 1.07.666 0 .918l-99.827 23.545c-1.071.252-2.153 1.335-2.406 2.406l-23.548 99.827c-.252 1.07-.666 1.07-.918 0l-23.543-99.827c-.252-1.071-1.335-2.153-2.406-2.406l-99.831-23.545c-1.071-.252-1.071-.666 0-.918l99.831-23.55c1.071-.252 2.153-1.335 2.406-2.406l23.543-99.824c.252-1.071.666-1.071.918 0z" fill="#fbb523"></path></g><g><path d="m268.6 354.202c.252 1.07 1.335 2.153 2.405 2.405l77.568 18.3c1.07.252 1.07.666 0 .918l-77.568 18.297c-1.07.252-2.153 1.335-2.405 2.405l-18.296 77.565c-.252 1.07-.666 1.07-.918 0l-18.294-77.565c-.252-1.07-1.335-2.153-2.406-2.405l-77.571-18.297c-1.071-.252-1.071-.666 0-.918l77.571-18.3c1.071-.252 2.153-1.335 2.406-2.405l18.294-77.566c.252-1.07.666-1.07.918 0z" fill="#fbb523"></path></g><g><path d="m398.59 216.31c.252 1.071 1.335 2.153 2.405 2.406l59.113 13.946c1.07.252 1.07.666 0 .918l-59.113 13.944c-1.07.252-2.153 1.335-2.405 2.406l-13.945 59.112c-.252 1.07-.666 1.07-.918 0l-13.941-59.112c-.252-1.071-1.335-2.153-2.405-2.406l-59.117-13.944c-1.07-.252-1.07-.666 0-.918l59.117-13.946c1.07-.252 2.153-1.335 2.405-2.406l13.941-59.112c.252-1.071.666-1.071.918 0z" fill="#fbb523"></path></g></g><g opacity=".02"><g><path d="m304.384 163.691c1.07.252 1.07.666 0 .918l-99.827 23.542c-1.071.252-2.153 1.335-2.406 2.406l-23.551 99.827c-.253 1.07-.666 1.07-.918 0l-2.712-11.497c-.252-1.07-.252-2.822 0-3.893l21.021-89.107c.252-1.071 1.335-2.153 2.406-2.406l93.006-21.933c1.07-.252 2.822-.252 3.893 0z"></path></g><g><path d="m348.584 374.91c1.07.253 1.07.666 0 .918l-77.567 18.293c-1.07.252-2.153 1.335-2.405 2.405l-18.302 77.566c-.253 1.07-.667 1.07-.919 0l-2.711-11.477c-.252-1.07-.253-2.822 0-3.893l15.772-66.867c.252-1.07 1.335-2.153 2.405-2.405l70.748-16.682c1.07-.252 2.822-.253 3.893 0z"></path></g><g><path d="m460.114 232.661c1.07.252 1.07.666 0 .918l-59.107 13.942c-1.07.252-2.153 1.335-2.405 2.406l-13.942 59.117c-.252 1.07-.666 1.07-.918 0l-2.712-11.497c-.252-1.07-.252-2.822 0-3.893l11.412-48.387c.252-1.071 1.335-2.153 2.405-2.406l52.297-12.341c1.07-.253 2.822-.253 3.893 0z"></path></g></g></g></svg>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <a href="./product-detail.html" class="product-commonItem">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                        </div>
+                        <div class="product-commonItem_text">
+                            <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                            <p class="product-2nd_price">$<span class="big">990</span></p>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                <span class="product-2nd_reward">1%</span>
+                            </div>
+                            <div class="product-2nd_tag">滿1000免運</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="./product-detail.html" class="product-commonItem">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                        </div>
+                        <div class="product-commonItem_text">
+                            <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                            <p class="product-2nd_price">$<span class="big">990</span></p>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                <span class="product-2nd_reward">1%</span>
+                            </div>
+                            <div class="product-2nd_tag">滿1000免運</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="./product-detail.html" class="product-commonItem">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                        </div>
+                        <div class="product-commonItem_text">
+                            <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                            <p class="product-2nd_price">$<span class="big">990</span></p>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                <span class="product-2nd_reward">1%</span>
+                            </div>
+                            <div class="product-2nd_tag">滿1000免運</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="./product-detail.html" class="product-commonItem">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                        </div>
+                        <div class="product-commonItem_text">
+                            <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                            <p class="product-2nd_price">$<span class="big">990</span></p>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                <span class="product-2nd_reward">1%</span>
+                            </div>
+                            <div class="product-2nd_tag">滿1000免運</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="" class="product-commonItem">
+                        <div class="product-pic">
+                            <img class="product-pic_img" src="https://tshop.r10s.com/7f3/e94/4bd3/880b/d0fa/2730/96df/1151efbad20242ac110003.jpg?_ex=200x200" alt="">
+                        </div>
+                        <div class="product-commonItem_text">
+                            <h3 class="product-2nd_name">不對稱下擺短袖襯衫</h3>
+                            <p class="product-2nd_price">$<span class="big">990</span></p>
+                            <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-p-circle-fill product-2nd_token"></i>
+                                <span class="product-2nd_reward">1%</span>
+                            </div>
+                            <div class="product-2nd_tag">滿1000免運</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="gift bg-transparent py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="" class="gift_item">
+                            <img src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001509/191751/509763/7e98c8567683936c30e225e1641f158351c786fa.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="" class="gift_item">
+                            <img src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001509/191751/509763/7e98c8567683936c30e225e1641f158351c786fa.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="" class="gift_item">
+                            <img src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001509/191751/509763/7e98c8567683936c30e225e1641f158351c786fa.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="" class="gift_item">
+                            <img src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001509/191751/509763/7e98c8567683936c30e225e1641f158351c786fa.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="" class="gift_item">
+                            <img src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001509/191751/509763/7e98c8567683936c30e225e1641f158351c786fa.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="" class="gift_item">
+                            <img src="https://cont001.ias.global.rakuten.com/tw/ec/creative/dst/1000001509/191751/509763/7e98c8567683936c30e225e1641f158351c786fa.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hot-topic pt-3">
+            <div class="container">
+                <h2 class="title">熱門活動</h2>
+            </div>
+            <div class="bg-white">
+                <div class="hot-topic_item">
+                    <a href="" class="hot-topic_title">
+                        <h3>熱門活動</h3>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="hot-topic_item">
+                    <a href="" class="hot-topic_title">
+                        <h3>熱門活動</h3>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="hot-topic_item">
+                    <a href="" class="hot-topic_title">
+                        <h3>熱門活動</h3>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="hot-topic_item">
+                    <a href="" class="hot-topic_title">
+                        <h3>熱門活動</h3>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="hot-topic_item">
+                    <a href="" class="hot-topic_title">
+                        <h3>熱門活動</h3>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-detail_related p-3 mb-0">
+            <ul class="justify-content-center">
+                <li>sony bravia x85j</li>
+                <li>太空鉛筆</li>
+                <li>unifying</li>
+                <li>cinlica計算機</li>
+                <li>妙管家</li>
+                <li>離氨酸</li>
+                <li>富鼎旺</li>
+                <li>燈芯絨羽絨外套</li>
+                <li>掛牆洗手</li>
+            </ul>
+        </div>
+
+        <img class="w-100 my-3" src="./public/img/info.png" alt="">
+
+        <div class="cheat mb-3">
+            <div class="container">
+                <div class="cheat_inner">
+                    <div class="cheat_inner_content">
+                        <div class="cheat_title">
+                            <i class="bi bi-shield-check"></i>
+                            <h3>防詐騙提醒</h3>
+                        </div>
+                        <p>
+                            台灣樂天市場與店家不會主動致電要求解除分期付款、要求ATM轉帳。
+                        </p>
+                    </div>
+                    <div class="cheat_inner_content">
+                        <div class="cheat_title">
+                            <i class="bi bi-shield-check"></i>
+                            <h3>防詐騙提醒</h3>
+                        </div>
+                        <p>
+                            台灣樂天市場與店家不會主動致電要求解除分期付款、要求ATM轉帳。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    
+    
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+    <script>
+        $(".shop-nav a").click(function() {
+            let content = $(this).data("content");
+            $(content).addClass("active");
+        })
+
+        $(".shop-nav_content_head_close").click(function() {
+            $(this).parents(".shop-nav_content").removeClass("active");
+        })
+    </script>
+
+</body>
+</html>

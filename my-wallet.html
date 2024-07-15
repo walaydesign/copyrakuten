@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="container">
+                <div class="header_top d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-list header_menu"></i>
+                        <img class="header_logo ms-3" src="./public/img/logo.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href="./member.html"><i class="bi bi-person"></i></a>
+                        <a href="./cart.html" class="header_cart ms-4">
+                            <i class="bi bi-cart2"></i>
+                            <div class="header_cart_num">1</div>
+                        </a>
+                    </div>
+                </div>
+                <a href="./search.html" class="header_search d-flex align-items-center">
+                    <input type="text" placeholder="請輸入關鍵字">
+                    <button><i class="bi bi-search"></i></button>
+                </a>
+            </div>
+        </header>
+
+        <div class="bg-white">
+            <div class="my-wallet_overall">
+                <h1 class="text-center font-18 color-white m-0 py-3">我的錢包</h1>
+                <span class="color-white font-14 text-center d-block">帳戶餘額</span>
+                <p class="color-white font-24 text-center mb-3">$356358.76</p>
+                <div class="px-3">
+                    <div class="my-wallet_overall_data">
+                        <div class="row m-0 border-bottom border-e6 pb-4">
+                            <div class="col-6 my-wallet_overall_data_item">
+                                <p class="m-0 color-66 font-24">$0.00</p>
+                                <p class="mb-3 color-99 font-14">凍結金額</p>
+                                <a href="./add-money.html" class="py-1 px-5 rounded bg-primary color-white font-14">充值</a>
+                            </div>
+                            <div class="col-6 my-wallet_overall_data_item">
+                                <p class="m-0 color-66 font-24">$356358.76</p>
+                                <p class="mb-3 color-99 font-14">可提現金額</p>
+                                <a href="./get-money.html" class="py-1 px-5 rounded bg-primary color-white font-14">提現</a>
+                            </div>
+                        </div>
+                        <div class="row font-14 color-66 pt-4">
+                            <div class="col-4">
+                                <p class="m-0">三方託管金額</p>
+                                <p class="m-0">$0.00</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="m-0">已提現</p>
+                                <p class="m-0">$0.00</p>
+                            </div>
+                            <div class="col-4">
+                                <p class="m-0">待結算</p>
+                                <p class="m-0">$0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="my-wallet_detail bg-white">
+            <div class="my-wallet_detail_nav">
+                <div class="row">
+                    <a href="" class="col-4 active">餘額明細</a>
+                    <a href="" class="col-4">充值紀錄</a>
+                    <a href="" class="col-4">提現紀錄</a>
+                </div>
+            </div>
+            <div class="px-3 mb-4">
+                <div class="d-flex align-items-center color-99 font-14 cursor-pointer" data-bs-toggle="modal" data-bs-target="#select-month">
+                    <span class="me-1">2024-06</span>
+                    <i class="bi bi-caret-down-fill"></i>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="my-wallet_detail_item">
+                    <div>
+                        <span class="font-16">浩沉</span>
+                        <span class="font-14 color-99">上架成本：123.38</span>
+                    </div>
+                    <div class="text-end">
+                        <span class="font-16 color-primary">-128.38</span>
+                        <span class="font-14 color-99">2024-06-27 18:24</span>
+                    </div>
+                </div>
+                <div class="my-wallet_detail_item">
+                    <div>
+                        <span class="font-16">浩沉</span>
+                        <span class="font-14 color-99">下架成本：123.38</span>
+                    </div>
+                    <div class="text-end">
+                        <span class="font-16 color-orange">+128.38</span>
+                        <span class="font-14 color-99">2024-06-27 18:24</span>
+                    </div>
+                </div>
+                <div class="my-wallet_detail_item">
+                    <div>
+                        <span class="font-16">浩沉</span>
+                        <span class="font-14 color-99">上架成本：123.38</span>
+                    </div>
+                    <div class="text-end">
+                        <span class="font-16 color-primary">-128.38</span>
+                        <span class="font-14 color-99">2024-06-27 18:24</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="member_footer">
+            <div class="row member_footer_top px-3">
+                <div class="col-6">
+                    <a href="">客服中心</a>
+                </div>
+                <div class="col-6">
+                    <a href="">加入會員</a>
+                </div>
+                <div class="col-6">
+                    <a href="">常見問題</a>
+                </div>
+                <div class="col-6">
+                    <a href="">會員專區</a>
+                </div>
+                <div class="col-6">
+                    <a href="">下載博客來APP</a>
+                </div>
+                <div class="col-6">
+                    <a href="">會員等級</a>
+                </div>
+            </div>
+            <ul class="d-flex align-items-center justify-content-center py-3">
+                <li class="mx-2"><a href="" class="font-14 color-primary">資訊安全</a></li>
+                <li class="mx-2"><a href="" class="font-14 color-primary">隱私權政策</a></li>
+                <li class="mx-2"><a href="" class="font-14 color-primary">會員條款</a></li>
+            </ul>
+            <p class="text-center font-14">
+                ©博客來數位科技股份有限公司<br>
+                統編：96922355<br>
+                食品業者登錄字號：A-196922355-00000-9
+            </p>
+        </footer>
+
+    </main>
+
+    <div class="modal fade" id="select-month" tabindex="-1" aria-labelledby="select-monthLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title" id="select-monthLabel">選擇月份</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="collect-num_input d-flex align-items-center justify-content-center py-2">
+                    <select name="" id="">
+                        <option value="">2024</option>
+                        <option value="">2023</option>
+                        <option value="">2022</option>
+                        <option value="">2021</option>
+                    </select>
+                    <label for="" class="me-0 ms-2">年</label>
+                </div>
+                <div class="collect-num_input d-flex align-items-center justify-content-center pt-2">
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                    <label for="" class="me-0 ms-2">月</label>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-center pb-3 pt-0">
+                <button type="button" class="w-75 bg-primary color-white font-14 p-2 rounded" data-bs-dismiss="modal">確定</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    
+
+    
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+
+
+</body>
+</html>

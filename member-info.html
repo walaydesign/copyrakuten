@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="container">
+                <div class="header_top d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-list header_menu"></i>
+                        <img class="header_logo ms-3" src="./public/img/logo.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href="./member.html"><i class="bi bi-person"></i></a>
+                        <a href="./cart.html" class="header_cart ms-4">
+                            <i class="bi bi-cart2"></i>
+                            <div class="header_cart_num">1</div>
+                        </a>
+                    </div>
+                </div>
+                <a href="./search.html" class="header_search d-flex align-items-center">
+                    <input type="text" placeholder="請輸入關鍵字">
+                    <button><i class="bi bi-search"></i></button>
+                </a>
+            </div>
+        </header>
+
+        <div class="bg-white p-3 mb-3">
+            <div class="member_info_form">
+                <div class="member_info_form_item">
+                    <i class="bi bi-person"></i>
+                    <input type="text" value="浩辰">
+                </div>
+                <div class="member_info_form_item">
+                    <i class="bi bi-phone"></i>
+                    <input type="text" value="347239473829">
+                    <button class="member_info_form_btn">獲取驗證碼</button>
+                </div>
+                <div class="member_info_form_item">
+                    <i class="bi bi-patch-check"></i>
+                    <input type="text" placeholder="請輸入驗證碼">
+                </div>
+                <div class="member_info_form_item">
+                    <i class="bi bi-geo-alt"></i>
+                    <div role="tw-city-selector" class="member_info_form_city"></div>
+                </div>
+                <div class="member_info_form_item">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="請輸入usdt地址">
+                </div>
+                <div class="member_info_form_item">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="請輸入銀行名稱">
+                </div>
+                <div class="member_info_form_item">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="請輸入帳號">
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white p-3 pb-5">
+            <div class="d-flex align-items-end mb-4">
+                <h2 class="title m-0">基本資料</h2>
+                <span class="font-14 color-brown ms-3">實名證件，獲取更多大禮及收益</span>
+            </div>
+            <div class="member_info_upload">
+                <div class="d-flex align-items-center justify-content-center mb-3">
+                    <div class="member_info_upload_circle left"></div>
+                    <h2 class="member_info_upload_title">上傳身分證</h2>
+                    <div class="member_info_upload_circle right"></div>
+                </div>
+                <div>
+                    <div class="member_info_upload_item mb-3">
+                        <img class="member_info_upload_pic" src="./public/img/upload-1.png" alt="">
+                        <input type="file" class="member_info_upload_btn">
+                    </div>
+                    <div class="member_info_upload_item">
+                        <img class="member_info_upload_pic" src="./public/img/upload-2.png" alt="">
+                        <input type="file" class="member_info_upload_btn">
+                    </div>
+                </div>
+            </div>
+            <div class="member_info_upload">
+                <div class="d-flex align-items-center justify-content-center mb-3">
+                    <div class="member_info_upload_circle left"></div>
+                    <h2 class="member_info_upload_title">上傳銀行帳戶</h2>
+                    <div class="member_info_upload_circle right"></div>
+                </div>
+                <div>
+                    <div class="member_info_upload_item mb-3">
+                        <img class="member_info_upload_pic" src="./public/img/upload-3.png" alt="">
+                        <input type="file" class="member_info_upload_btn">
+                    </div>
+                </div>
+            </div>
+            <button class="w-100 p-2 font-18 bg-primary color-white rounded">確定</button>
+        </div>
+
+        <footer class="member_footer">
+            <div class="row member_footer_top px-3">
+                <div class="col-6">
+                    <a href="">客服中心</a>
+                </div>
+                <div class="col-6">
+                    <a href="">加入會員</a>
+                </div>
+                <div class="col-6">
+                    <a href="">常見問題</a>
+                </div>
+                <div class="col-6">
+                    <a href="">會員專區</a>
+                </div>
+                <div class="col-6">
+                    <a href="">下載博客來APP</a>
+                </div>
+                <div class="col-6">
+                    <a href="">會員等級</a>
+                </div>
+            </div>
+            <ul class="d-flex align-items-center justify-content-center py-3">
+                <li class="mx-2"><a href="" class="font-14 color-primary">資訊安全</a></li>
+                <li class="mx-2"><a href="" class="font-14 color-primary">隱私權政策</a></li>
+                <li class="mx-2"><a href="" class="font-14 color-primary">會員條款</a></li>
+            </ul>
+            <p class="text-center font-14">
+                ©博客來數位科技股份有限公司<br>
+                統編：96922355<br>
+                食品業者登錄字號：A-196922355-00000-9
+            </p>
+        </footer>
+
+
+    </main>
+
+    
+
+    
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/tw-city-selector/tw-city-selector.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+    <script>
+        new TwCitySelector();
+
+        let IdentifyImg;
+        $(".member_info_upload_btn").change(function(e) {
+            IdentifyImg = $(this).parents(".member_info_upload_item").find(".member_info_upload_pic");
+            IdentifyReadURL(e.target);
+        })
+        function IdentifyReadURL(IdentifyInput) {
+            if(IdentifyInput.files && IdentifyInput.files[0]){
+                let reader = new FileReader();
+                reader.onload = function (e) {
+                    IdentifyImg.attr('src', e.target.result);
+                }
+                reader.readAsDataURL(IdentifyInput.files[0]);
+            }
+        }
+    </script>
+
+</body>
+</html>

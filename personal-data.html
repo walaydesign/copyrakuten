@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="container">
+                <div class="header_top d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-list header_menu"></i>
+                        <img class="header_logo ms-3" src="./public/img/logo.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a href="./member.html"><i class="bi bi-person"></i></a>
+                        <a href="./cart.html" class="header_cart ms-4">
+                            <i class="bi bi-cart2"></i>
+                            <div class="header_cart_num">1</div>
+                        </a>
+                    </div>
+                </div>
+                <a href="./search.html" class="header_search d-flex align-items-center">
+                    <input type="text" placeholder="請輸入關鍵字">
+                    <button><i class="bi bi-search"></i></button>
+                </a>
+            </div>
+        </header>
+
+        <h1 class="text-center font-18 color-primary m-0 py-3 bg-f4">用戶信息</h1>
+        <div class="bg-white pt-4 pb-5 px-3">
+            <div class="personal-data">
+                <div class="personal-data_item">
+                    <label for="">用戶帳號</label>
+                    <div class="personal-data_input"><input type="text" value="kkghx92"></div>
+                </div>
+                <div class="personal-data_item">
+                    <label for="">用戶姓名</label>
+                    <div class="personal-data_input"><input type="text" value="浩辰"></div>
+                </div>
+                <div class="personal-data_item personal-data_gender">
+                    <label for="">性別</label>
+                    <form class="personal-data_input d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <input type="radio" id="male" name="gender-radio">
+                            <label for="male">男</label>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <input type="radio" id="female" name="gender-radio">
+                            <label for="female">女</label>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <input type="radio" id="secret" name="gender-radio">
+                            <label for="secret">保密</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="personal-data_item personal-data_logo">
+                    <label for="">LOGO</label>
+                    <div class="personal-data_input">
+                        <div class="personal-data_logo_pic">
+                            <img class="personal-data_logo_img" src="" alt="" id="personal-data_logo_img">
+                            <input type="file" class="personal-data_logo_input">
+                        </div>
+                    </div>
+                </div>
+                <button class="personal-data_btn mt-5">確定</button>
+            </div>
+        </div>  
+
+
+        <footer class="member_footer">
+            <div class="row member_footer_top px-3">
+                <div class="col-6">
+                    <a href="">客服中心</a>
+                </div>
+                <div class="col-6">
+                    <a href="">加入會員</a>
+                </div>
+                <div class="col-6">
+                    <a href="">常見問題</a>
+                </div>
+                <div class="col-6">
+                    <a href="">會員專區</a>
+                </div>
+                <div class="col-6">
+                    <a href="">下載博客來APP</a>
+                </div>
+                <div class="col-6">
+                    <a href="">會員等級</a>
+                </div>
+            </div>
+            <ul class="d-flex align-items-center justify-content-center py-3">
+                <li class="mx-2"><a href="" class="font-14 color-primary">資訊安全</a></li>
+                <li class="mx-2"><a href="" class="font-14 color-primary">隱私權政策</a></li>
+                <li class="mx-2"><a href="" class="font-14 color-primary">會員條款</a></li>
+            </ul>
+            <p class="text-center font-14">
+                ©博客來數位科技股份有限公司<br>
+                統編：96922355<br>
+                食品業者登錄字號：A-196922355-00000-9
+            </p>
+        </footer>
+
+    </main>
+
+
+
+    
+
+    
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+    <script>
+        let LogoImg;
+        $(".personal-data_logo_input").change(function(e) {
+            LogoImg = $(this).parents(".personal-data_logo_pic").find(".personal-data_logo_img");
+            IdentifyReadURL(e.target);
+        })
+        function IdentifyReadURL(LogoInput) {
+            if(LogoInput.files && LogoInput.files[0]){
+                let reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById("personal-data_logo_img").style.opacity = "1";
+                    LogoImg.attr('src', e.target.result);
+                }
+                reader.readAsDataURL(LogoInput.files[0]);
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>
